@@ -45,9 +45,10 @@ return packer.startup(function(use)
       require("foo.plugins.Comment")
     end,
   })
-
+  use({"kdheepak/lazygit.nvim"})
   -- statusline
-  use("itchyny/lightline.vim")
+  use({"itchyny/lightline.vim" })
+   
   use({
   'nvim-telescope/telescope.nvim',
   requires = {
@@ -55,6 +56,7 @@ return packer.startup(function(use)
     { 'kyazdani42/nvim-web-devicons' },
     { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' },
     { 'nvim-telescope/telescope-live-grep-args.nvim' },
+    { 'kdheepak/lazygit.nvim'}
   },
   config = function()
     require('foo.plugins.telescope')
@@ -68,7 +70,10 @@ return packer.startup(function(use)
       require('foo.plugins.Treesitter')
     end,
   })
-
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+    require("foo.plugins.toggleterm").setup()
+  end,
+}
 
 
   if packer_bootstrap then

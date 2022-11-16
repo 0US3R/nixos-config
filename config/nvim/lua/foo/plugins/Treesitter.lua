@@ -21,4 +21,6 @@ require('nvim-treesitter.configs').setup({
   context_commentstring = {
     enable = true,
   },
+    auto_install = true,
+      ensure_installed = { "c", "lua", "go", "hcl"},
 })

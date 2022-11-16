@@ -13,8 +13,9 @@ vim.cmd([[
 telescope.setup({
   defaults = {
     path_display = { truncate = 1 },
-    prompt_prefix = '   ',
-    selection_caret = '  ',
+    multi_icon = "✚",
+    prompt_prefix = "❯ ",
+    selection_caret = "▶ ",
     layout_config = {
       prompt_position = 'top',
     },
