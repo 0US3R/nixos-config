@@ -7,7 +7,7 @@ vim.cmd([[
   highlight link TelescopePromptNormal NormalFloat
   highlight link TelescopePromptBorder FloatBorder
   highlight link TelescopeNormal CursorLine
-  highlight link TelescopeBorder CursorLineBg
+  highlight link TelescopeBorder CursorLine
 ]])
 
 telescope.setup({

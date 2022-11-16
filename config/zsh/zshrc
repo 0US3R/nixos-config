@@ -12,7 +12,7 @@ plugins=(
     vi-mode
     fzf
     tmux
-    zsh-autosuggestions
+    zsh-autosuggestions 
     zsh-syntax-highlighting
   )
 
@@ -81,3 +81,6 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# To customize prompt, run `p10k configure` or edit ~/my-git/dotfiles/config/zsh/p10k.zsh.
+[[ ! -f ~/my-git/dotfiles/config/zsh/p10k.zsh ]] || source ~/my-git/dotfiles/config/zsh/p10k.zsh

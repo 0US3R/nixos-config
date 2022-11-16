@@ -30,7 +30,7 @@ end
 return packer.startup(function(use)
   -- packer can manage itself
   use("wbthomason/packer.nvim")
-  use("arcticicestudio/nord-vim")
+  use("doums/darcula")
   use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
   use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
   use("szw/vim-maximizer") -- maximizes and restores current window
@@ -47,8 +47,7 @@ return packer.startup(function(use)
   })
 
   -- statusline
-  use("nvim-lualine/lualine.nvim")
-
+  use("itchyny/lightline.vim")
   use({
   'nvim-telescope/telescope.nvim',
   requires = {
