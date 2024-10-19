@@ -13,12 +13,6 @@
  };
 
  programs = {
-	steam = { 
-		enable = true;
-		remotePlay.openFirewall = true;
-		dedicatedServer.openFirewall = true;
-	};
-
     hyprland = {
         enable = true;
 

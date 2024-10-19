@@ -5,7 +5,7 @@
         ./hyprland.nix
         ./nixsettings.nix
         ./packages.nix
-        ./polkit.nix
+      #  ./polkit.nix
         ./programs.nix
         ./security.nix
         ./services.nix
