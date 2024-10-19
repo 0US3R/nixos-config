@@ -22,7 +22,7 @@
         pkgs-unstable = nixpkgs-unstable.legacyPackages.${system};
 	in
     {
-		nixosConfigurations.nixos-personal = lib.nixosSystem {
+		nixosConfigurations.workstation = lib.nixosSystem {
                 inherit system;
 				modules = [
                     ./system/configuration.nix 
@@ -33,7 +33,7 @@
         };
 
 		homeConfigurations = {
-			gpskwlkr = home-manager.lib.homeManagerConfiguration {
+			bernhard = home-manager.lib.homeManagerConfiguration {
 				inherit pkgs;
 				modules = [ ./home ];
                 extraSpecialArgs = {

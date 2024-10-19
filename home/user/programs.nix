@@ -3,13 +3,14 @@
   programs.firefox = {
     enable = true;
 
-    profiles.gpskwlkr = {
+    profiles.bernhard = {
         extensions = with inputs.firefox-addons.packages."x86_64-linux"; [
             bypass-paywalls-clean
             darkreader
             i-dont-care-about-cookies
             ublock-origin
             youtube-shorts-block
+	    bitwarden
         ];
     };
   };

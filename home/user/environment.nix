@@ -1,7 +1,7 @@
 {
   home.sessionVariables = {
 	     BROWSER = "firefox";
-	     EDITOR = "nvim";
+	     EDITOR = "vim";
 	     TERMINAL = "kitty";
 	     NIXOS_OZONE_WL = "1";
 	     QT_QPA_PLATFORMTHEME = "gtk3";

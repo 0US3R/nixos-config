@@ -3,7 +3,6 @@
 {
     imports = [
         ./hyprland.nix
-        ./networking.nix
         ./nixsettings.nix
         ./packages.nix
         ./polkit.nix

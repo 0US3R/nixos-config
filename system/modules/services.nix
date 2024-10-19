@@ -4,12 +4,10 @@
   services = {
   	dbus.enable = true;
 	picom.enable = true;
-	openssh.enable = true;
-    spice-vdagentd.enable = true;
 
 	xserver = {
 		enable = true;
-		layout = "us, ru, ge";
+		layout = "us, ge";
         xkbOptions = "grp:alt_shift_toggle, caps:swapescape";
 
 		displayManager = {
