@@ -17,8 +17,6 @@
     pkgs.obsidian
    pkgs.thunderbird
     pkgs.libreoffice-qt
-    pkgs.hunspell
- 
     # Bluetooth
     pkgs.blueberry
 
@@ -26,20 +24,7 @@
 
     # Social
     pkgs.telegram-desktop
-    pkgs-unstable.vesktop
-
-    # Gaming
-    pkgs.steam
-    pkgs.steam-run
-    pkgs.yuzu-mainline
-    (pkgs.lutris.override {
-      extraPkgs = pkgs: [
-        pkgs.wineWowPackages.stable
-        pkgs.winetricks
-      ];
-    })
-
-    # Downloads
+        # Downloads
     pkgs.qbittorrent
 
     # Utils
