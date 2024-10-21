@@ -2,10 +2,10 @@
     description = "gpskwlkr NixOS";
 
     inputs = {
-	    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+	nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
         nixpkgs-unstable.url = "nixpkgs/nixos-unstable";
         home-manager.url = "github:nix-community/home-manager/release-24.05";
-        home-manager.inputs.nixpkgs.follows = "nixpkgs";
+        home-manager.inputs.nixpkgs.follows = "nixpkgs-unstable";
 
         firefox-addons = {
             url = "gitlab:rycee/nur-expressions?dir=pkgs/firefox-addons";

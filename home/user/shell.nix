@@ -19,7 +19,7 @@ in
   programs = {
 	zsh = {
 		enable = true;
-		enableAutosuggestions = true;
+		autosuggestion.enable = true;
 		syntaxHighlighting.enable = true;
 		initExtra = '' 
             source ~/.p10k.zsh

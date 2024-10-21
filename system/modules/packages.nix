@@ -8,6 +8,8 @@
     git
     ripgrep
     xfce.thunar
+    wally-cli
+    keymapp
     xdg-desktop-portal-gtk
     xdg-desktop-portal-wlr
   ];
