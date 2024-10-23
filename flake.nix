@@ -1,5 +1,5 @@
 {
-    description = "gpskwlkr NixOS";
+    description = "Bernhard NixOS";
 
     inputs = {
 	nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
