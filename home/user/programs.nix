@@ -14,11 +14,7 @@
         ];
     };
   };
-  programs.emacs = {
-    enable = true;
-
-  };  
-  
+ 
 
   programs.home-manager.enable = true;
 }

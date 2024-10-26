@@ -10,6 +10,7 @@ users.users.bernhard= {
         "kvm"
         "libvirtd"
         "networkmanager"
+       "plugdev"
      ]; 
    };
 }

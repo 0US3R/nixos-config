@@ -19,8 +19,10 @@
     pkgs.libreoffice-qt
     # Bluetooth
     pkgs.blueberry
-
-    
+    pkgs.emacs29-pgtk
+	pkgs.binutils
+     pkgs.flatpak
+      pkgs.gnome.gnome-software    
 
     # Social
     pkgs.telegram-desktop

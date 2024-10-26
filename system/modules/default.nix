@@ -15,5 +15,6 @@
         ./users.nix
         ./virtualisation.nix
         ./networking.nix
+        ./fonts.nix
     ];
 }
